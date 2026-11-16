@@ -1,0 +1,48 @@
+name: Check Gartner jobs
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub may delay scheduled runs by a few minutes at busy times.
+    # If the repo is PRIVATE, change to "*/30 * * * *" to stay within the 2,000 free minutes/month.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gartner-job-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for new openings
+        run: python3 scraper.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+
+      - name: Save seen jobs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          [ -f seen_jobs.json ] || exit 0
+          git add seen_jobs.json
+          git diff --cached --quiet && exit 0      # nothing changed → no commit
+          git commit -m "Update seen jobs"
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          exit 1

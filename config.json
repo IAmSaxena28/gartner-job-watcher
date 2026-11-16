@@ -1,0 +1,39 @@
+{
+  "site": {
+    "base": "https://gartner.wd5.myworkdayjobs.com",
+    "tenant": "gartner",
+    "board": "EXT"
+  },
+
+  "profile_intro": "I'm a 3rd-year B.Tech Computer Science student, open to both internships and full-time roles, and I think I'd be a strong fit.",
+  "referral_template": "Hi! Gartner just posted \"{title}\" (Req ID {req}, {location}). {intro} Would you be able to refer me? {url}",
+
+  "country": "India",
+  "india_location_words": ["India", "Gurgaon", "Gurugram", "Bangalore", "Bengaluru", "Chennai", "Mumbai", "Hyderabad", "Pune", "Noida", "Delhi", "Kolkata"],
+
+  "tech_job_families": ["Technology", "Data Analytics"],
+
+  "title_include": [
+    "software", "engineer", "engineering", "developer", "sde", "programmer",
+    "full stack", "fullstack", "frontend", "front end", "front-end", "backend", "back end", "back-end",
+    "data", "machine learning", "ml", "ai", "genai", "python", "java", "react", "node",
+    "cloud", "devops", "sre", "qa", "quality", "test", "testing", "automation", "platform", "security", "technology", "tech",
+    "systems analyst", "it analyst", "technology analyst", "technical analyst", "business analyst", "bi analyst",
+    "technical support", "it support", "support specialist", "technical specialist", "it specialist",
+    "technology consultant", "technical consultant",
+    "member of technical staff", "mts", "graduate engineer trainee", "trainee"
+  ],
+
+  "title_exclude": [
+    "senior", "sr", "sr.", "lead", "principal", "staff engineer", "staff software", "director", "manager", "head",
+    "architect", "vp", "mvp", "chief", "partner", "executive"
+  ],
+
+  "entry_level_words": ["intern", "internship", "graduate", "trainee", "fresher", "entry level", "entry-level", "associate", "junior", "jr", "campus", "apprentice"],
+
+  "max_years": 1,
+  "stretch_years": 2,
+  "stretch_max_upper": 4,
+
+  "reopen_after_days": 3
+}
