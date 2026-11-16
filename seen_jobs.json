@@ -1,0 +1,173 @@
+{
+  "failures": 0,
+  "jobs": {
+    "100813": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Business Development Executive, HT"
+    },
+    "104460": {
+      "decision": "skip:experience(4+ yrs)",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Systems Engineer (Mac Environment)"
+    },
+    "108169": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Account Executive, LE EU"
+    },
+    "110334": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "T&E Analyst"
+    },
+    "110470": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Business Development Executive, MSE, GTS"
+    },
+    "110949": {
+      "decision": "match",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Specialist Analyst (Technology market, market sizing, revenue analysis)"
+    },
+    "112620": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Lead Data Scientist (Agentic AI, RAG, GenAI/LLM, Classical ML)"
+    },
+    "113178": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Sr Director Analyst, HR Technology – Talent & Learning"
+    },
+    "113370": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Director - QA + ppl management"
+    },
+    "113544": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "BDE, MSE"
+    },
+    "113852": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Account Executive"
+    },
+    "113856": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Cloud Architect (AWS & GCP)- CCOE"
+    },
+    "114333": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Director, Data Engineer (Python, Pyspark, MLOPs, LLMOPs, SQL, Databricks)"
+    },
+    "114337": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Sr Principal, Analyst (Semiconductor Memory – NAND Flash/DRAM)"
+    },
+    "114655": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Specialist, Client Engagement Services"
+    },
+    "114762": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Principal Analyst (Physical AI Semiconductors, IOT, Market Intelligence, Forecast/ Market Sizing models)"
+    },
+    "114766": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Business Operations Specialist"
+    },
+    "115046": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Manager, TPA"
+    },
+    "115160": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Lead Security Engineer (Privileged Access Management )"
+    },
+    "115213": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "HRA (Associate Experience)"
+    },
+    "115234": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Sr Product Specialist, GSSO"
+    },
+    "115431": {
+      "decision": "stretch",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Software Engineer - Fullstack (React + Java/Python/.Net)"
+    },
+    "115434": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Licensing Analyst"
+    },
+    "115504": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Sr Data Analyst (ML/Adv. Analytics/Data Science, Python, Databricks, Adv. Excel, Quant & Qual Analytics)"
+    },
+    "115512": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Data Analytics Lead - Power Platform & Copilot Solutions Architect"
+    },
+    "115822": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "AskHR Associate (Frontline HR Inquiry resolution)"
+    },
+    "115824": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Marketing Manager"
+    },
+    "87913": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Business Development Executive"
+    }
+  }
+}
