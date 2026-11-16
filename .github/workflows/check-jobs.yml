@@ -2,9 +2,10 @@ name: Check Gartner jobs
 
 on:
   schedule:
-    # Every 15 minutes. GitHub may delay scheduled runs by a few minutes at busy times.
-    # If the repo is PRIVATE, change to "*/30 * * * *" to stay within the 2,000 free minutes/month.
-    - cron: "*/15 * * * *"
+    # Every 15 minutes at :07 :22 :37 :52. Off-peak minutes on purpose: GitHub delays or drops
+    # scheduled runs at :00/:15/:30/:45 when it is busy.
+    # If the repo is PRIVATE, change to "7-59/30 * * * *" to stay within the 2,000 free minutes/month.
+    - cron: "7-59/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
