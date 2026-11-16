@@ -42,6 +42,17 @@ also lives there: edit `profile_intro` (who you are) and `referral_template`.
   about once a day plus whenever a new job appears. Before pushing, the workflow
   rebases so it never conflicts with your own pushes.
 
+## How do I know it's working?
+
+Every morning at about **9 AM IST** the bot sends a **☀️ Daily check-in**. It shows:
+- how many checks ran in the last 24 hours
+- how many India postings are open right now
+- which matching roles are still open
+- which tech roles it **skipped**, and why
+
+**Rule: if the check-in doesn't arrive by about 10 AM, something is broken.** No
+check-in is the alarm. You don't have to watch anything else.
+
 ## Setup
 
 ### 1. Telegram bot (2 minutes)

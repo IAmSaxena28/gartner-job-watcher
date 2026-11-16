@@ -24,7 +24,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
 from pathlib import Path
 
@@ -370,6 +370,73 @@ def format_alert(job: dict, kind: str, exp: dict | None, reopened: bool) -> tupl
     return subject, rich, plain
 
 
+# --------------------------------------------------------------------------- heartbeat
+
+IST = timezone(timedelta(hours=5, minutes=30))
+
+
+def recent_run_stats() -> tuple[int, int] | None:
+    """(successful, failed) runs of this workflow in the last 24h, via the GitHub CLI.
+    Only available on GitHub Actions; returns None anywhere else or on any error."""
+    if not os.getenv("GITHUB_ACTIONS"):
+        return None
+    since = (datetime.now(timezone.utc) - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:
+        r = subprocess.run(["gh", "run", "list", "--workflow", "check-jobs.yml", "--created", f">={since}",
+                            "--limit", "300", "--json", "status,conclusion"],
+                           capture_output=True, text=True, timeout=60)
+        runs = [x for x in json.loads(r.stdout) if x["status"] == "completed"] if r.returncode == 0 else None
+    except Exception:  # noqa: BLE001
+        return None
+    if runs is None:
+        return None
+    ok = sum(x["conclusion"] == "success" for x in runs)
+    return ok, len(runs) - ok
+
+
+def maybe_send_heartbeat(state: dict, listings: dict, tech_ids: set[str], force: bool = False) -> None:
+    """Once a day (first run after heartbeat_hour_ist), send a 'still alive' summary.
+    If this message ever stops arriving, the watcher is broken — silence is the alarm."""
+    now_ist = datetime.now(IST)
+    day = now_ist.strftime("%Y-%m-%d")
+    if not force and (now_ist.hour < CONFIG["heartbeat_hour_ist"] or state.get("last_heartbeat") == day):
+        return
+
+    seen = state["jobs"]
+    open_jobs = [(rid, seen.get(rid, {})) for rid in listings]
+    matched = [(rid, r) for rid, r in open_jobs if r.get("decision") in ("match", "stretch")]
+    exp_skipped = [(rid, r) for rid, r in open_jobs if str(r.get("decision", "")).startswith("skip:experience")]
+    senior_skipped = [(rid, r) for rid, r in open_jobs
+                      if r.get("decision") == "skip:title" and rid in tech_ids]
+
+    e = html.escape
+    lines = ["☀️ <b>Daily check-in: Gartner watcher is alive</b>"]
+    stats = recent_run_stats()
+    if stats:
+        lines.append(f"🔄 Checks in last 24h: {stats[0]} ok" + (f", ⚠️ {stats[1]} failed" if stats[1] else ", 0 failed"))
+    lines.append(f"🇮🇳 Open India postings right now: {len(listings)} ({len(tech_ids)} in tech categories)")
+    if matched:
+        lines.append(f"\n🎯 <b>Still open, already sent to you ({len(matched)}):</b>")
+        lines += [f"• {e(r['title'])} (Req {e(rid)})" + (" ⚠️ stretch" if r["decision"] == "stretch" else "")
+                  for rid, r in matched[:10]]
+    else:
+        lines.append("\n🎯 No matching roles open right now.")
+    if exp_skipped or senior_skipped:
+        lines.append("\n🙈 <b>Tech roles I skipped (check I'm not wrong):</b>")
+        for rid, r in exp_skipped[:8]:
+            why = r["decision"].removeprefix("skip:experience(").removesuffix(")")
+            lines.append(f"• {e(r['title'])}: asks {e(why)}")
+        for rid, r in senior_skipped[:8]:
+            lines.append(f"• {e(r['title'])}: senior title")
+    lines.append(f"\n<i>No check-in tomorrow by ~{CONFIG['heartbeat_hour_ist'] + 1}:00 = something is broken. "
+                 f"Check the Actions tab or tell Claude.</i>")
+
+    rich = "\n".join(lines)
+    plain = re.sub(r"<[^>]+>", "", rich)
+    if notify("☀️ Gartner watcher daily check-in", rich, html.unescape(plain)):
+        state["last_heartbeat"] = day
+
+
 # --------------------------------------------------------------------------- main
 
 def run() -> None:
@@ -421,6 +488,8 @@ def run() -> None:
     # forget jobs that have been gone for a long time to keep the state file small
     for rid in [r for r, v in seen.items() if days_between(v["last_seen"], now) > 90]:
         del seen[rid]
+
+    maybe_send_heartbeat(state, listings, tech_ids)
 
     if state.get("failures", 0) > 0:
         notify("✅ Gartner watcher recovered", "✅ Gartner job watcher is working again.",

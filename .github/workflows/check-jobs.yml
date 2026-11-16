@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: read      # lets the daily check-in count how many checks ran
 
 concurrency:
   group: gartner-job-check
@@ -31,6 +32,7 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
           CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Save seen jobs
         if: always()

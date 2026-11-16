@@ -35,5 +35,7 @@
   "stretch_years": 2,
   "stretch_max_upper": 4,
 
-  "reopen_after_days": 3
+  "reopen_after_days": 3,
+
+  "heartbeat_hour_ist": 9
 }
