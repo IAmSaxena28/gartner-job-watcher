@@ -49,11 +49,23 @@
       "last_seen": "2026-11-17",
       "title": "Associate Data Scientist"
     },
+    "113102": {
+      "decision": "match",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "title": "Data Analyst"
+    },
     "113178": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
       "last_seen": "2026-11-17",
       "title": "Sr Director Analyst, HR Technology – Talent & Learning"
+    },
+    "113247": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "title": "Manager, Dashboards & Reporting, Financial and Future Planning"
     },
     "113314": {
       "decision": "skip:title",
@@ -157,6 +169,12 @@
       "last_seen": "2026-11-17",
       "title": "Sr Product Specialist, GSSO"
     },
+    "115398": {
+      "decision": "match",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "title": "Data Analyst"
+    },
     "115431": {
       "decision": "stretch",
       "first_seen": "2026-11-16",
@@ -199,11 +217,23 @@
       "last_seen": "2026-11-17",
       "title": "Marketing Manager"
     },
+    "115838": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "title": "Manager, Security Operations (Incident Response, Leadership)"
+    },
     "115842": {
       "decision": "stretch",
       "first_seen": "2026-11-17",
       "last_seen": "2026-11-17",
       "title": "Security Analyst - Risk Management"
+    },
+    "116120": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "title": "Financial Analyst"
     },
     "87913": {
       "decision": "skip:title",
