@@ -71,6 +71,17 @@ check-in is the alarm. You don't have to watch anything else.
 Public repos get unlimited free Actions minutes. If you make the repo **private**,
 change the cron schedule in `.github/workflows/check-jobs.yml` to `*/30`.
 
+## What actually starts the checks
+
+GitHub's built-in schedule (`cron` in the workflow) turned out to be unreliable for
+this account: it ran once in 12 hours. So **cron-job.org** starts the workflow every
+15 minutes through GitHub's API, using a key that can only start Actions in this repo
+and expires on 2027-11-17. The GitHub schedule stays switched on as a backup.
+
+- Pause alerts: switch the job off on cron-job.org.
+- Before 2027-11-17: make a new key and paste it into the cron-job.org job's
+  `Authorization` header.
+
 ## Commands
 
 | Command | What it does |
