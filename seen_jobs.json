@@ -109,6 +109,12 @@
       "last_seen": "2026-11-18",
       "title": "Cloud Architect (AWS & GCP)- CCOE"
     },
+    "114015": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Program Manager- (New Hire Associate Experience & PMO)"
+    },
     "114312": {
       "decision": "stretch",
       "first_seen": "2026-11-16",
@@ -192,6 +198,12 @@
       "first_seen": "2026-11-16",
       "last_seen": "2026-11-18",
       "title": "Sr Data Analyst (ML/Adv. Analytics/Data Science, Python, Databricks, Adv. Excel, Quant & Qual Analytics)"
+    },
+    "115506": {
+      "decision": "match",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Associate Data Analyst"
     },
     "115512": {
       "decision": "skip:title",
