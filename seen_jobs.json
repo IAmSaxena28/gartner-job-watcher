@@ -253,6 +253,12 @@
       "last_seen": "2026-11-19",
       "title": "Security Analyst - Risk Management"
     },
+    "116004": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Senior Account Executive"
+    },
     "116120": {
       "decision": "skip:title",
       "first_seen": "2026-11-17",
