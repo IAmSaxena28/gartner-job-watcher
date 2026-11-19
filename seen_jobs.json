@@ -163,6 +163,12 @@
       "last_seen": "2026-11-19",
       "title": "Manager, TPA"
     },
+    "115084": {
+      "decision": "match",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Associate, Data Insights"
+    },
     "115160": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
