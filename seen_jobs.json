@@ -19,6 +19,12 @@
       "last_seen": "2026-11-19",
       "title": "Account Executive, LE EU"
     },
+    "109749": {
+      "decision": "skip:experience(3+ yrs)",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Data Engineer - Platform Engineering"
+    },
     "110334": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
@@ -241,6 +247,18 @@
       "last_seen": "2026-11-19",
       "title": "Account Executive, LE EU"
     },
+    "115761": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Project Manager - Scrum Master | 2-4 years experience"
+    },
+    "115804": {
+      "decision": "match",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Assoc Svcs Business Analyst- Content Review"
+    },
     "115822": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
@@ -250,7 +268,7 @@
     "115824": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-19",
       "title": "Marketing Manager"
     },
     "115838": {
