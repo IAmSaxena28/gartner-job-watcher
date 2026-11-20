@@ -313,6 +313,12 @@
       "last_seen": "2026-11-19",
       "title": "Financial Analyst"
     },
+    "116124": {
+      "decision": "skip:experience(3–5 yrs)",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Data Analyst"
+    },
     "87913": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
