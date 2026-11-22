@@ -313,11 +313,23 @@
       "last_seen": "2026-11-19",
       "title": "Financial Analyst"
     },
+    "116121": {
+      "decision": "match",
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Associate Data Analyst"
+    },
     "116124": {
       "decision": "skip:experience(3–5 yrs)",
       "first_seen": "2026-11-20",
       "last_seen": "2026-11-22",
       "title": "Data Analyst"
+    },
+    "116128": {
+      "decision": "stretch",
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Business Analyst"
     },
     "87913": {
       "decision": "skip:title",
