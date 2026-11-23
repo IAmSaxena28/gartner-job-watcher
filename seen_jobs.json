@@ -7,6 +7,12 @@
       "last_seen": "2026-11-23",
       "title": "Business Development Executive, HT"
     },
+    "104014": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Sales Executive"
+    },
     "104460": {
       "decision": "skip:experience(4+ yrs)",
       "first_seen": "2026-11-16",
@@ -313,11 +319,23 @@
       "last_seen": "2026-11-19",
       "title": "Security Analyst - Risk Management"
     },
+    "115913": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Research and Data Engagement Lead"
+    },
     "116004": {
       "decision": "skip:title",
       "first_seen": "2026-11-19",
       "last_seen": "2026-11-23",
       "title": "Senior Account Executive"
+    },
+    "116109": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Marketing Specialist"
     },
     "116120": {
       "decision": "skip:title",
@@ -348,6 +366,12 @@
       "first_seen": "2026-11-16",
       "last_seen": "2026-11-23",
       "title": "Business Development Executive"
+    },
+    "91228": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Enterprise Account Executive"
     }
   },
   "last_heartbeat": "2026-11-23"
