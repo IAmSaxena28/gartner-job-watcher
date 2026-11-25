@@ -4,25 +4,25 @@
     "100813": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Business Development Executive, HT"
     },
     "104014": {
       "decision": "skip:title",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Sales Executive"
     },
     "104460": {
       "decision": "skip:experience(4+ yrs)",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Systems Engineer (Mac Environment)"
     },
     "108169": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Account Executive, LE EU"
     },
     "109749": {
@@ -34,13 +34,13 @@
     "110334": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "T&E Analyst"
     },
     "110470": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Business Development Executive, MSE, GTS"
     },
     "110949": {
@@ -52,7 +52,7 @@
     "112620": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Lead Data Scientist (Agentic AI, RAG, GenAI/LLM, Classical ML)"
     },
     "112692": {
@@ -76,19 +76,19 @@
     "113178": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Sr Director Analyst, HR Technology – Talent & Learning"
     },
     "113247": {
       "decision": "skip:title",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Manager, Dashboards & Reporting, Financial and Future Planning"
     },
     "113264": {
       "decision": "match",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Associate Consultant – Strategy & Technology Consulting"
     },
     "113314": {
@@ -100,13 +100,13 @@
     "113370": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Director - QA + ppl management"
     },
     "113544": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "BDE, MSE"
     },
     "113581": {
@@ -124,13 +124,13 @@
     "113852": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Account Executive"
     },
     "113856": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Cloud Architect (AWS & GCP)- CCOE"
     },
     "113909": {
@@ -142,13 +142,13 @@
     "114007": {
       "decision": "skip:title",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Lead Data Scientist"
     },
     "114015": {
       "decision": "skip:title",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Program Manager- (New Hire Associate Experience & PMO)"
     },
     "114312": {
@@ -160,37 +160,37 @@
     "114333": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Director, Data Engineer (Python, Pyspark, MLOPs, LLMOPs, SQL, Databricks)"
     },
     "114337": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Sr Principal, Analyst (Semiconductor Memory – NAND Flash/DRAM)"
     },
     "114655": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Specialist, Client Engagement Services"
     },
     "114762": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Principal Analyst (Physical AI Semiconductors, IOT, Market Intelligence, Forecast/ Market Sizing models)"
     },
     "114766": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Business Operations Specialist"
     },
     "115046": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Manager, TPA"
     },
     "115084": {
@@ -208,7 +208,7 @@
     "115160": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Lead Security Engineer (Privileged Access Management )"
     },
     "115213": {
@@ -238,7 +238,7 @@
     "115434": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Licensing Analyst"
     },
     "115470": {
@@ -250,7 +250,7 @@
     "115504": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Sr Data Analyst (ML/Adv. Analytics/Data Science, Python, Databricks, Adv. Excel, Quant & Qual Analytics)"
     },
     "115505": {
@@ -268,7 +268,7 @@
     "115512": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Data Analytics Lead - Power Platform & Copilot Solutions Architect"
     },
     "115730": {
@@ -292,7 +292,7 @@
     "115804": {
       "decision": "match",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Assoc Svcs Business Analyst- Content Review"
     },
     "115822": {
@@ -304,13 +304,13 @@
     "115824": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Marketing Manager"
     },
     "115838": {
       "decision": "skip:title",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Manager, Security Operations (Incident Response, Leadership)"
     },
     "115842": {
@@ -322,7 +322,7 @@
     "115913": {
       "decision": "skip:title",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Research and Data Engagement Lead"
     },
     "116004": {
@@ -334,7 +334,7 @@
     "116109": {
       "decision": "skip:title",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Marketing Specialist"
     },
     "116120": {
@@ -346,31 +346,31 @@
     "116121": {
       "decision": "match",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Associate Data Analyst"
     },
     "116124": {
       "decision": "skip:experience(3–5 yrs)",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Data Analyst"
     },
     "116128": {
       "decision": "stretch",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Business Analyst"
     },
     "87913": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Business Development Executive"
     },
     "91228": {
       "decision": "skip:title",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "title": "Enterprise Account Executive"
     }
   },
