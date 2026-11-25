@@ -211,6 +211,12 @@
       "last_seen": "2026-11-22",
       "title": "Sr Payroll Specialist - India Payroll"
     },
+    "115139": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Director, UX Design"
+    },
     "115160": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
@@ -226,7 +232,7 @@
     "115234": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-25",
       "title": "Sr Product Specialist, GSSO"
     },
     "115398": {
@@ -276,6 +282,12 @@
       "first_seen": "2026-11-16",
       "last_seen": "2026-11-25",
       "title": "Data Analytics Lead - Power Platform & Copilot Solutions Architect"
+    },
+    "115688": {
+      "decision": "match",
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Svcs Business Analyst"
     },
     "115730": {
       "decision": "skip:title",
