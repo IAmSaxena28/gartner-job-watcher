@@ -235,6 +235,12 @@
       "last_seen": "2026-11-19",
       "title": "HRA (Associate Experience)"
     },
+    "115231": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "title": "Business Development Executive"
+    },
     "115234": {
       "decision": "skip:title",
       "first_seen": "2026-11-16",
@@ -313,6 +319,12 @@
       "last_seen": "2026-11-20",
       "title": "Project Manager - Scrum Master | 2-4 years experience"
     },
+    "115801": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "title": "Database Marketing Manager"
+    },
     "115804": {
       "decision": "match",
       "first_seen": "2026-11-19",
@@ -390,6 +402,24 @@
       "first_seen": "2026-11-22",
       "last_seen": "2026-11-25",
       "title": "Business Analyst"
+    },
+    "116151": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "title": "Communications Specialist (2+ years in Writing & Editing)"
+    },
+    "116163": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "title": "Marketing Associate"
+    },
+    "116186": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "title": "Manager, Data Analytics"
     },
     "87913": {
       "decision": "skip:title",
