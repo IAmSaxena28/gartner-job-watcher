@@ -25,6 +25,12 @@
       "last_seen": "2026-11-26",
       "title": "Account Executive, LE EU"
     },
+    "109527": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "title": "Account Executive, LE HT"
+    },
     "109749": {
       "decision": "skip:experience(3+ yrs)",
       "first_seen": "2026-11-19",
@@ -136,7 +142,7 @@
     "113909": {
       "decision": "skip:title",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-26",
       "title": "Account Executive, LE/GE, GTS"
     },
     "113938": {
@@ -298,7 +304,7 @@
     "115732": {
       "decision": "skip:title",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-26",
       "title": "Account Executive, LE EU"
     },
     "115761": {
@@ -346,7 +352,7 @@
     "116004": {
       "decision": "skip:title",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-26",
       "title": "Senior Account Executive"
     },
     "116109": {
