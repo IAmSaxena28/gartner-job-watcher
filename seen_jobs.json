@@ -385,6 +385,18 @@
       "last_seen": "2026-11-27",
       "title": "Principal, Research ( Min 5 years, Max 7 years only. Research background is required)"
     },
+    "116113": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "title": "Sr Specialist, Research ( Min 3 , Max 5 years only research background required)"
+    },
+    "116114": {
+      "decision": "skip:title",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "title": "Specialist, Research"
+    },
     "116120": {
       "decision": "skip:title",
       "first_seen": "2026-11-17",
