@@ -1,5 +1,5 @@
 {
-  "failures": 1,
+  "failures": 0,
   "jobs": {
     "100813": {
       "decision": "skip:title",
